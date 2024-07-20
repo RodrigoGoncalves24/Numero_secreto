@@ -6,7 +6,7 @@ let tentativas = 1;
 
 
 
-// Parâmetros para a função e ao ser chamada, ela pede esses atriutos
+// Parametros para a função e ao ser chamada, ela pede esses atriutos
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
